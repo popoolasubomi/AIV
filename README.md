@@ -28,11 +28,10 @@ n_samples, h, w = lfw_people.images.shape
 ```
 Refer to https://github.com/popoolasubomi/AIV/blob/main/counterfit/counterfit/targets/Faces/Trial.ipynb regarding more info on the data usage and training of the ML model
 
-### Data Description: Construct of multiple facial images of the following targets: ['Ariel Sharon', 'Colin Powell', 'Donald Rumsfeld', 'George W Bush', 'Gerhard Schroeder', 'Hugo Chavez', 'Tony Blair']
-
-### Data is collected from the python module and transforomed in to .npx format for compression and easier usage / manipulation.
-
-### Machine learning model was built & trained based on the context of the data provided and the model created was used as the main test of vulnerabiility within the Faces target
+### Data Description
+- Construct of multiple facial images of the following targets: 'Ariel Sharon', 'Colin Powell', 'Donald Rumsfeld', 'George W Bush', 'Gerhard Schroeder', 'Hugo Chavez', 'Tony Blair'
+- Data is collected from the python module and transforomed in to .npx format for compression and easier usage / manipulation.
+- Machine learning model was built & trained based on the context of the data provided and the model created was used as the main test of vulnerabiility within the Faces target
 
 ## Instruction On Usage
 You would need to run counterfit.py
