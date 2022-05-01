@@ -18,21 +18,21 @@ pip install -r counterfit/requirements.txt
 
 ## Data Source
 
-    ### Source: 
-    This data is nibuilt and gotten from a python module source
-    It is provided externally under sklearn public datasets and can be accessed using
-    
-    ```
-    from sklearn.datasets import fetch_lfw_people
-    n_samples, h, w = lfw_people.images.shape
-    ```
-    Refer to https://github.com/popoolasubomi/AIV/blob/main/counterfit/counterfit/targets/Faces/Trial.ipynb regarding more info on the data usage and training of the ML model
+### Source: 
+This data is nibuilt and gotten from a python module source
+It is provided externally under sklearn public datasets and can be accessed using
 
-    ### Data Description: Construct of multiple facial images of the following targets: ['Ariel Sharon', 'Colin Powell', 'Donald Rumsfeld', 'George W Bush', 'Gerhard Schroeder', 'Hugo Chavez', 'Tony Blair']
+```
+from sklearn.datasets import fetch_lfw_people
+n_samples, h, w = lfw_people.images.shape
+```
+Refer to https://github.com/popoolasubomi/AIV/blob/main/counterfit/counterfit/targets/Faces/Trial.ipynb regarding more info on the data usage and training of the ML model
 
-    ### Data is collected from the python module and transforomed in to .npx format for compression and easier usage / manipulation.
+### Data Description: Construct of multiple facial images of the following targets: ['Ariel Sharon', 'Colin Powell', 'Donald Rumsfeld', 'George W Bush', 'Gerhard Schroeder', 'Hugo Chavez', 'Tony Blair']
 
-    ### Machine learning model was built & trained based on the context of the data provided and the model created was used as the main test of vulnerabiility within the Faces target
+### Data is collected from the python module and transforomed in to .npx format for compression and easier usage / manipulation.
+
+### Machine learning model was built & trained based on the context of the data provided and the model created was used as the main test of vulnerabiility within the Faces target
 
 ## Instruction On Usage
 You would need to run counterfit.py
